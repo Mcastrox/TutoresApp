@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIenvenidos a la app de tutorias"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:layout_marginTop="36dp"
+        android:textSize="24dp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu coreo electronico"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="36dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:hint="Por favor ingresa tu correo electronico"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu contraseña"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="36dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:hint="Por favor ingresa tu contraseña"
+        android:padding="8dp" />
+
+
+    <Button
+        android:id="@+id/loginAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Iniciar Sesión"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+
+        android:textColor="@color/black" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

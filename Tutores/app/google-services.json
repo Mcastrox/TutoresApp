@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "435203474934",
+    "project_id": "iristutores",
+    "storage_bucket": "iristutores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435203474934:android:c091a8698eea4bbaf173d7",
+        "android_client_info": {
+          "package_name": "com.example.tutores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435203474934-114cmdec234h4uu97iguc74dh34hel63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtNvxq-IKT1lLC89uz1F-0YCdVT8rTJT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435203474934-114cmdec234h4uu97iguc74dh34hel63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
